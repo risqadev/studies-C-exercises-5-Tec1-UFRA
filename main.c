@@ -5,7 +5,7 @@ int main(void) {
   char select = 'n';
 
   do {
-    printf("\nInforme o programa (nº questão) a ser executado (1-8):\n1 - Números divisíveis por 4 menores que 200\n2 - Série de Fibonacci, 100 termos\n3 - Somatório e média\n4 - Contagem de idades\n5 - Moda (estatística)\n6 - Potenciação\n7 - Série de Fibonacci, N termos\n8 - Números primos\n0 - Sair:\n> ");
+    printf("\nInforme o programa (nº questão) a ser executado (1-8):\n1 - Números divisíveis por 4 menores que 200\n2 - Série de Fibonacci, 100 termos\n3 - Somatório e média\n4 - Contagem de idades\n5 - Moda (estatística)\n6 - Potenciação\n7 - Série de Fibonacci, N termos\n8 - Números primos\n0 - Sair\n> ");
     scanf(" %c", &select);
 
     switch (select) {

@@ -3,7 +3,8 @@
 int primo(unsigned int n) {
   int i, divisor = 1;
   
-  for (i=2; i <= n/2; i++) {
+  for (i=3; i <= n/2; i+=2) {
+    // printf("%d, ", i); // printa os valores que estão sendo testados
     if ( n % i == 0 ) {
       divisor = i;
       break;
